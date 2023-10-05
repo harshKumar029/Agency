@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  /* background: rgba(0,0,0,0.85); */
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+  z-index: 10;
+  background-color: #402787;
+
+  
+}
+/* .nav-logo .link{
+   min-width: min-content;
+} */
+
+.logo-img {
+  width: 7.5rem;
+  padding: 1rem;
+}
+/* 
+.nav-logo h5 {
+  color: #a5a5a5;
+  font-size: .9rem;
+  font-weight: 100;
+} */
+
+.menu-link ul {
+  padding: 0px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.menu-link ul li {
+  font-family: DM Sans;
+  list-style: none;
+  padding: 15px 25px;
+}
+.menu-link ul li a:hover {
+  color: #FF005C
+}
+
+
+.menu-link ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: .9rem;
+  font-weight: 400;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+.nav_contact{
+  font-family: DM Sans;
+  background-color: #FFB417; /* Green */
+  border: none;
+  color: rgb(0, 0, 0);
+  /* margin-left: 3rem; */
+  padding: 1.5rem 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.Butt_contact{
+  margin-left: 3rem;
+}
+
+
+@media only screen and (max-width: 1024px){
+  html {
+    font-size: 90%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+
+  html {
+    font-size: 85%;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+
+  html {
+    font-size: 75%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  html {
+    font-size: 65%;
+  }
+  .menu-link ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.2rem;
+  }
+
+  .menu-link ul {
+    position: absolute;
+    gap: 0;
+    top: 5.2rem;
+    left: 0rem;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    background-color: #000000a3;
+    text-align: center;
+    z-index: 10;
+  }
+  .nav_contact{
+    margin-left: -2rem;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .open .line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+
+  .open .line:nth-child(2) {
+    opacity: 0;
+  }
+
+  .open .line:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
+
+  .social-media {
+    display: none;
+  }
+}

@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,400&display=swap');
+.OurWork {
+margin-top: 10rem;
+/* margin-bottom: 5rem; */
+}
+
+.OurWorkHead {
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.OurWorkHead h4 {
+    margin: 0px;
+    font-family: DM Sans;
+    font-size: 1.2rem;
+    letter-spacing: 4.4px;
+    color: #ffffff;
+    font-weight: 200;
+    opacity: 0.7;
+
+}
+.OurWorkHead h1 {
+    margin: 0px;
+    margin-top: 1%;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+.workCategory {
+    max-width: 90%;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+}
+#workcat{
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+.workCategory div {
+    margin-left: 4.8%;
+    margin-right: 4.8%;
+    padding: 5px 0px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.56px;
+    text-transform: uppercase;
+    justify-content: center;
+    text-align: center;
+}
+.workCategory div::after {
+
+    content: '';
+    display: block;
+    width: 0px;
+    margin: auto;
+    height: 3px;
+    background: #FF005C;
+    transition: width 0.3s;
+    text-align: center;
+}
+.workCategory div:hover::after, .workCategory div:active::after {
+    width: 100%;
+}
+
+.ourAds {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 400px;
+    margin: auto;
+}
+.ourAds .first {
+    height: inherit;
+    width: 45%;
+    background-color: #FF005C;
+}
+.ourAds .second {
+    height: inherit;
+    width: 45%;
+    background-color: #FF005C;
+}
+
+
+.pagination {
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.pagination .pagi {
+    display: inline-block;
+    width: 30px;
+    margin: auto;
+    margin-left: .4rem;
+    margin-right: .4rem;
+    margin-top: 3rem;
+    height: 2px;
+    background: #FFf;
+    transition: width .3s;
+}
+.pagination .pagi:active {
+    width: 50px;
+    background: #FF005C;
+}
+.pagination .active {
+    width: 50px;
+    background: #FF005C;
+}
+
+@media only screen and (max-width: 549px) {
+    .workCategory {
+        flex-wrap: wrap;
+    }
+
+}
