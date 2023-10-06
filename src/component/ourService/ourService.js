@@ -31,7 +31,7 @@ const OurService = () => {
         </div>
         <div className='serviceList2 slider-container'>
           <div className='slider2'>
-            <div className='slide' style={{backgroundColor:"#5031A9"}}>First1</div>
+            <div className='slide' style={{backgroundColor:"#8C64FF"}}>First1</div>
             <div className='slide'>OUR SERVICES1</div>
             <div className='slide' style={{backgroundColor:"#FF3F84"}}>OUR SERVICES1</div>
             <div className='slide'>OUR SERVICES1</div>
@@ -39,7 +39,7 @@ const OurService = () => {
             <div className='slide'>OUR SERVICES1</div>
           </div>
           <div className='slider2'>
-          <div className='slide' style={{backgroundColor:"#5031A9"}}>First1</div>
+          <div className='slide' style={{backgroundColor:"#8C64FF"}}>First1</div>
             <div className='slide'>OUR SERVICES1</div>
             <div className='slide' style={{backgroundColor:"#FF3F84"}}>OUR SERVICES1</div>
             <div className='slide'>OUR SERVICES1</div>
