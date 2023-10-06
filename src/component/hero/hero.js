@@ -23,7 +23,7 @@ const hero = () => {
             <button href="#" className="seeOurProject">See Our Projects</button>
           </div>
         </div>
-          {/* <img className="hero-img" src="./assets/img/hero-img.png" alt="hero-img" /> */}
+          <img className="hero-img" src="./assets/img/hero-img.png" alt="hero-img" />
 
       </div>
     </>
