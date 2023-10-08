@@ -59,8 +59,8 @@ const OurWork = () => {
   return (
     <div className='OurWork'>
       <div className='OurWorkHead'>
-        <h4>OUR WORK</h4>
-        <h1>What We Do at Name</h1>
+        <h4>EXPLORE OUR</h4>
+        <h1>Showcase of Creative Excellence</h1>
       </div>
       <div className='workCategory' id='workcat'>
         <div

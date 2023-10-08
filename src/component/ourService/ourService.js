@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import "./ourService.css"
 
 const OurService = () => {
@@ -7,8 +7,8 @@ const OurService = () => {
     <>
       <div className='ourService'>
         <div className='serviceContent'>
-          <h4>OUR SERVICES</h4>
-          <h1>We Offer a Wide Range Of Service</h1>
+          <h4>OUR SERVICES THAT</h4>
+          <h1>Transform Ideas into Digital Marvels</h1>
         </div>
         <div className='serviceList1 slider-container'>
           <div className='slider1'>

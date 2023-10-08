@@ -25,9 +25,9 @@ const Navbar = () => {
     };
   }, []);
 
-  const handleToggle = () => {
-    setIsOpen(!isOpen);
-  };
+  // const handleToggle = () => {
+  //   setIsOpen(!isOpen);
+  // };
 
   const handleLinkClick = () => {
     if (isOpen) {
@@ -43,7 +43,7 @@ const Navbar = () => {
         <nav>
           <div className='nav-logo'>
             {/* <RouterLink className='link' to=""> */}
-              <img className='logo-img' src="./assets/img/BLOOM MEDIA.COM.png" alt="icon" />
+              <img className='logo-img' src="./assets/img/ZUDIO MEDIA.svg" alt="icon" />
               {/* <h2>Hey! there</h2> */}
               {/* </RouterLink> */}
             {/* <h5>Puppy World</h5> */}

@@ -12,7 +12,7 @@ const footer = () => {
                     </div>
                     <div>
                         <h2>OUR ADDRESS</h2>
-                        <h4>56 Basement, NRI <br/> Colony, Mandakini <br/> New Delhi - 110019 <br/> Info@greyspacestu</h4>
+                        <h4>New Ashok Nagar, Delhi <br /> 110018</h4>
                     </div>
                     <div>
                         <h2>CONTACT US</h2>
@@ -24,10 +24,16 @@ const footer = () => {
                     </div>
                 </div>
                 <div className='hr'>
-                <div className='hrline'></div>
+                    <div className='hrline'></div>
                 </div>
-                <div className='rights'>
-                    <h5>© 2023 Lucid Design India Pvt. Ltd. All rights reserved</h5>
+                <div className='footer-copyright'>
+                    <div className='rights'>
+                        <div className='logo'><img src='./assets/img/ZUDIO MEDIA.svg' alt='logo' /></div>
+                        <h5>All Rights reserved 2023 | Privacy Policy | Term of use </h5>
+                        <div>
+                             <h5>Privacy Policy | Term of use</h5>
+                        </div>
+                    </div>
                 </div>
             </div>
         </>
