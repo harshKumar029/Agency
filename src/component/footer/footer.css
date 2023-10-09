@@ -75,6 +75,7 @@
 }
 .logo img{
     width: 80px;
+    display: block;
 }
 .footer-copyright{
     width: 77.8%;
@@ -93,6 +94,9 @@
     /* padding-bottom: 8px; */
 
 }
+.logo-mob{
+    display: none;
+}
 @media only screen and (max-width: 550px){
     /* .footer{
 
@@ -100,5 +104,28 @@
     .footer-content{
         flex-direction: column;
         align-items: center;
+    }
+    .logo{
+        display: none;
+    }
+    .logo-mob{
+        display: block;
+        text-align: center;
+
+    }
+    .logo-mob img{
+        width: 80%;
+    }
+    .got-proj h3 {
+        text-align: center;
+    }
+    .got-proj h5{
+        margin: auto;
+        padding: 15px 65px;
+        font-weight: 700;
+        font-size: 1.3rem;
+    }
+    .footer-content div h2,.footer-content div h4{
+        text-align: center;
     }
 }

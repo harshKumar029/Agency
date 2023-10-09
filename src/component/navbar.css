@@ -100,7 +100,16 @@ img {
 
 @media only screen and (max-width: 550px) {
   html {
-    font-size: 65%;
+    font-size: 72%;
+  }
+  nav{
+    justify-content: space-between;
+  }
+  .logo-img {
+    padding-left: 30px;
+  }
+  .Butt_contact{
+    margin-right: 0%;
   }
   .menu-link ul li a {
     text-decoration: none;

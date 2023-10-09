@@ -103,7 +103,11 @@
       transform: scale(1.1);
     }
   }
-
+  @media only screen and (max-width: 550px){
+    .ourAds{
+        height: 58vw;
+    }
+  }
 
 @media only screen and (max-width: 425px) {
     .rect {
@@ -129,5 +133,8 @@
     .ClientTalk h4{
         margin-top: 20% ;
         margin-left: 5%;
+    }
+    .clints-pagination{
+        margin-top: 25% ;
     }
 }

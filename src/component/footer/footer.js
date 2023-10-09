@@ -8,6 +8,7 @@ const footer = () => {
         <>
             <div className='footer'>
                 <div className='footer-content'>
+                <div className='logo-mob'><img src='./assets/img/ZUDIO MEDIA.svg' alt='logo' /></div>
                     <div className='got-proj'>
                         <h3>GOT A PROJECT?</h3>
                         <h5>Contact Us</h5>

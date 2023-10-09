@@ -103,5 +103,10 @@
         padding:1.5rem 3rem ;
     } */
   }
+  @media only screen and (max-width: 550px){
+    .ourService{
+      margin-top: -70px;
+    }
+  }
 
 
