@@ -65,6 +65,44 @@
     font-weight: 700;
     line-height: 147.2%;
 }
+.author-pagi{
+    display: flex;
+    justify-content: space-between;
+}
+/* Pagination container */
+.clints-pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 7.5%;
+    margin-right: 10%;
+  }
+  
+  /* Pagination dot style */
+  .clints-pagi {
+    width: .8rem;
+    height: .8rem;
+    background-color: #ffffff; /* Default dot color */
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out; /* Animation transition */
+  }
+  
+  /* Active pagination dot style */
+  .clint-active {
+    background-color: #FF005C; /* Active dot color (red) */
+    animation: pulse 1s infinite alternate; /* Animation effect */
+  }
+  
+  /* Animation effect */
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }
 
 
 @media only screen and (max-width: 425px) {

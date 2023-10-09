@@ -12,21 +12,21 @@ const OurService = () => {
         </div>
         <div className='serviceList1 slider-container'>
           <div className='slider1'>
-            <div className='slide' style={{backgroundColor:"#FF9344"}}>First1</div>
-            <div className='slide' >OUR SERVICES1</div>
-            <div className='slide' style={{backgroundColor:"#FFD74B"}}>OUR SERVICES1</div>
-            <div className='slide' >OUR SERVICES1</div>
-            <div className='slide' style={{backgroundColor:"#63D683"}}>OUR SERVICES1</div>
-            <div className='slide' >OUR SERVICES1</div>
+            <div className='slide' style={{backgroundColor:"#FF9344"}}>Brand Identity Design</div>
+            <div className='slide' >UI&UX Design</div>
+            <div className='slide' style={{backgroundColor:"#FFD74B"}}>Graphic Design</div>
+            <div className='slide' >Content Creation</div>
+            <div className='slide' style={{backgroundColor:"#63D683"}}>Website Development</div>
+            <div className='slide' >Digital Marketing</div>
           </div>
           <div className='slider1'>
-          <div className='slide' style={{backgroundColor:"#FF9344"}}>First1</div>
-            <div className='slide' >OUR SERVICES1</div>
-            <div className='slide' style={{backgroundColor:"#FFD74B"}}>OUR SERVICES1</div>
-            <div className='slide' >OUR SERVICES1</div>
-            <div className='slide' style={{backgroundColor:"#63D683"}}>OUR SERVICES1</div>
-            <div className='slide' >OUR SERVICES1</div>
-          </div>
+          <div className='slide' style={{backgroundColor:"#FF9344"}}>Brand Identity Design</div>
+            <div className='slide' >UI&UX Design</div>
+            <div className='slide' style={{backgroundColor:"#FFD74B"}}>Graphic Design</div>
+            <div className='slide' >Content Creation</div>
+            <div className='slide' style={{backgroundColor:"#63D683"}}>Website Development</div>
+            <div className='slide' >Digital Marketing</div>
+            </div>
           
         </div>
         <div className='serviceList2 slider-container'>

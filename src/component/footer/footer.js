@@ -1,4 +1,6 @@
 import React from 'react'
+import { AiFillFacebook,AiFillInstagram } from "react-icons/ai";
+import { IoLogoWhatsapp } from "react-icons/io";
 import './footer.css'
 
 const footer = () => {
@@ -16,11 +18,15 @@ const footer = () => {
                     </div>
                     <div>
                         <h2>CONTACT US</h2>
-                        <h4>Info@greyspacestu</h4>
+                        <h4>contact@zudiomedia.com</h4>
                     </div>
                     <div>
-                        <h2>JOIN US</h2>
-                        <h4>Info@greyspacestu</h4>
+                        <h2>Follow us on</h2>
+                        <div>
+                            <AiFillInstagram className='soc-icon' />
+                            <IoLogoWhatsapp className='soc-icon' />
+                            <AiFillFacebook className='soc-icon' />
+                        </div>
                     </div>
                 </div>
                 <div className='hr'>
@@ -29,9 +35,9 @@ const footer = () => {
                 <div className='footer-copyright'>
                     <div className='rights'>
                         <div className='logo'><img src='./assets/img/ZUDIO MEDIA.svg' alt='logo' /></div>
-                        <h5>All Rights reserved 2023 | Privacy Policy | Term of use </h5>
+                        <h5>© 2023 Zudio Media Pvt. Ltd. All rights reserved</h5>
                         <div>
-                             <h5>Privacy Policy | Term of use</h5>
+                            <h5>Privacy Policy | Term of use</h5>
                         </div>
                     </div>
                 </div>

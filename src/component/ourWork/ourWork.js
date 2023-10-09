@@ -1,7 +1,12 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './ourwork.css';
 
 const OurWork = () => {
+
+
+  // changing button js
+
   const [selectedCategory, setSelectedCategory] = useState('socialMedia');
 
   const handleCategoryChange = (category) => {
@@ -9,18 +14,38 @@ const OurWork = () => {
   };
 
   const renderAds = () => {
-    if (selectedCategory === 'socialMedia') {
+     if (selectedCategory === 'all') {
       return (
         <>
-          <div className='first'>socialmedia Ad 1</div>
-          <div className='second'>socialmedia Ad 2</div>
+          <div className='first imgContainer' id="social1"><img src='assets/img/ourWork/socialmedia/graphic-des.jpg' alt='socialmedia-img' /></div>
+          <div className='second imgContainer' id="social1"><img src='assets/img/ourWork/socialmedia/Dussehra.jpg' alt='socialmedia-img' /></div>
+          <div className='first imgContainer' id="social1"><img src='assets/img/ourWork/socialmedia/voutch-pro.png' alt='socialmedia-img' /></div>
+          <div className='second imgContainer' id="social2"><img src='assets/img/ourWork/socialmedia/billbergia.png' alt='socialmedia-img' /></div>
+          <div className='first imgContainer' id="social3"><img src='assets/img/ourWork/socialmedia/kismatguru.png' alt='socialmedia-img' /></div>
+          <div className='first imgContainer' id="social1"><img src='assets/img/ourWork/ads/Billbergia-ad.jpg' alt='socialmedia-img' /></div>
+          <div className='first imgContainer' id="social1"><img src='assets/img/ourWork/ads/masterclass-ad.jpg' alt='socialmedia-img' /></div>
+          <div className='first imgContainer' id="social1"><img src='assets/img/ourWork/ads/system-des-ad.jpg' alt='socialmedia-img' /></div>
+          <div className='first imgContainer' id="social1"><img src='assets/img/ourWork/product-moc/product.jpg' alt='socialmedia-img' /></div>
+          <div className='first imgContainer' id="social1"><img src='assets/img/ourWork/product-moc/product-ad.png' alt='socialmedia-img' /></div>
+          <div className='first imgContainer' id="social1"><img src='assets/img/ourWork/product-moc/god-tshirt-ad.png' alt='socialmedia-img' /></div>
+        </>
+      ); 
+      } else if (selectedCategory === 'socialMedia') {
+      return (
+        <>
+          <div className='first imgContainer' id="social1"><img src='assets/img/ourWork/socialmedia/graphic-des.jpg' alt='socialmedia-img' /></div>
+          <div className='second imgContainer' id="social1"><img src='assets/img/ourWork/socialmedia/Dussehra.jpg' alt='socialmedia-img' /></div>
+          <div className='first imgContainer' id="social1"><img src='assets/img/ourWork/socialmedia/voutch-pro.png' alt='socialmedia-img' /></div>
+          <div className='second imgContainer' id="social2"><img src='assets/img/ourWork/socialmedia/billbergia.png' alt='socialmedia-img' /></div>
+          <div className='first imgContainer' id="social3"><img src='assets/img/ourWork/socialmedia/kismatguru.png' alt='socialmedia-img' /></div>
         </>
       );
     } else if (selectedCategory === 'ads') {
       return (
         <>
-          <div className='first'>Ads Ad 1</div>
-          <div className='second'>Ads Ad 2</div>
+          <div className='first imgContainer' id="social1"><img src='assets/img/ourWork/ads/Billbergia-ad.jpg' alt='socialmedia-img' /></div>
+          <div className='first imgContainer' id="social1"><img src='assets/img/ourWork/ads/masterclass-ad.jpg' alt='socialmedia-img' /></div>
+          <div className='first imgContainer' id="social1"><img src='assets/img/ourWork/ads/system-des-ad.jpg' alt='socialmedia-img' /></div>
         </>
       );
     } else if (selectedCategory === 'logo') {
@@ -30,18 +55,12 @@ const OurWork = () => {
           <div className='second'>logo Ad 2</div>
         </>
       );
-    } else if (selectedCategory === 'identity') {
-      return (
-        <>
-          <div className='first'>identity Ad 1</div>
-          <div className='second'>identity Ad 2</div>
-        </>
-      );
     } else if (selectedCategory === 'productMockup') {
       return (
         <>
-          <div className='first'>productMockup Ad 1</div>
-          <div className='second'>productMockup Ad 2</div>
+          <div className='first imgContainer' id="social1"><img src='assets/img/ourWork/product-moc/product.jpg' alt='socialmedia-img' /></div>
+          <div className='first imgContainer' id="social1"><img src='assets/img/ourWork/product-moc/product-ad.png' alt='socialmedia-img' /></div>
+          <div className='first imgContainer' id="social1"><img src='assets/img/ourWork/product-moc/god-tshirt-ad.png' alt='socialmedia-img' /></div>
         </>
       );
     } else if (selectedCategory === 'uiUx') {
@@ -63,6 +82,12 @@ const OurWork = () => {
         <h1>Showcase of Creative Excellence</h1>
       </div>
       <div className='workCategory' id='workcat'>
+      <div
+          className={selectedCategory === 'all' ? 'active' : ''}
+          onClick={() => handleCategoryChange('all')}
+        >
+          ALL
+        </div>
         <div
           className={selectedCategory === 'socialMedia' ? 'workSocial active' : 'workSocial'}
           onClick={() => handleCategoryChange('socialMedia')}
@@ -82,12 +107,6 @@ const OurWork = () => {
           LOGO
         </div>
         <div
-          className={selectedCategory === 'identity' ? 'active' : ''}
-          onClick={() => handleCategoryChange('identity')}
-        >
-          IDENTITY
-        </div>
-        <div
           className={selectedCategory === 'productMockup' ? 'active' : ''}
           onClick={() => handleCategoryChange('productMockup')}
         >
@@ -101,12 +120,12 @@ const OurWork = () => {
         </div>
       </div>
       <div className='ourAds'>{renderAds()}</div>
-      <div className='pagination'>
+      {/* <div className='pagination'>
         <div className='pagi active'></div>
         <div className='pagi'></div>
         <div className='pagi'></div>
         <div className='pagi'></div>
-      </div>
+      </div> */}
     </div>
   );
 };

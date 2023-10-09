@@ -57,6 +57,11 @@
     margin: 0%;
     font-family: DM Sans;
 }
+.soc-icon{
+    width: 1.9rem;
+    font-size: 21px;
+    margin-top: 20px;
+}
 .hr{
     text-align: -webkit-center;
 }
