@@ -118,14 +118,25 @@
     }
     .got-proj h3 {
         text-align: center;
+        margin: 20px 0px;
     }
     .got-proj h5{
         margin: auto;
-        padding: 15px 65px;
+        padding: 5% 18vw;
         font-weight: 700;
         font-size: 1.3rem;
     }
     .footer-content div h2,.footer-content div h4{
         text-align: center;
+        margin: 0%;
+    }
+    .footer-content div h2{
+        margin-top:20px ;
+        font-weight: 600;
+        font-size: 1.2rem;
+    }
+    .footer-content div h4{
+        font-weight: 400;
+        margin-top: .5rem;
     }
 }
