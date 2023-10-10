@@ -15,13 +15,13 @@ root.render(
 <>
 <BrowserRouter>
 <Navbar/>
-</BrowserRouter>
 <Hero/>
 <OurService/>
 <OurWork />
 <ClientTalk/>
 <WeDo/>
 <Footer/>
+</BrowserRouter>
 </>
 );
 

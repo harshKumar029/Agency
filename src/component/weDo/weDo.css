@@ -122,7 +122,7 @@
     .img-mob img{
         width: 100%;
     }
-    .weDo h1{
+    .weDo h1, .weDo h3{
         margin: 0;
     }
     .weDoContainer .weDoPara p {

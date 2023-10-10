@@ -1,5 +1,5 @@
 import React from 'react'
-import { AiFillFacebook,AiFillInstagram } from "react-icons/ai";
+import { AiFillLinkedin,AiFillInstagram } from "react-icons/ai";
 import { IoLogoWhatsapp } from "react-icons/io";
 import './footer.css'
 
@@ -26,7 +26,7 @@ const footer = () => {
                         <div>
                             <AiFillInstagram className='soc-icon' />
                             <IoLogoWhatsapp className='soc-icon' />
-                            <AiFillFacebook className='soc-icon' />
+                            <AiFillLinkedin className='soc-icon' />
                         </div>
                     </div>
                 </div>

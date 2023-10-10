@@ -164,10 +164,10 @@
 
   }
   .seeOurProject-button1{
-    padding: .5rem 2.8rem;
+    padding: .7rem 2.8rem;
   }
   .seeOurProject {
-    padding: .5rem 1rem;
+    padding: .7rem 1rem;
   }
   .heroSec h3 {
     line-height: 17px;
@@ -195,7 +195,7 @@
     align-self: center;
     text-align-last: center;
     padding: 0%;
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
   .getStarted {
     flex-direction: column-reverse;
@@ -214,10 +214,11 @@
 
   }
   .hero-img img {
-    width: 29rem;
+    width: 33rem;
   }
   .heroSec h3{
-    font-size: 1rem;
+    font-size: 1.2rem;
+    line-height: 20px;
   }
   
   .getStarted button {
@@ -226,5 +227,10 @@
   }
   .seeOurProject{
     margin-bottom:1rem ;
+  }
+}
+@media only screen and (max-width: 376px){
+  .hero-img img {
+    width: 28rem;
   }
 }

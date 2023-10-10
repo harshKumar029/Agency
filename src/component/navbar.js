@@ -51,10 +51,10 @@ const Navbar = () => {
           <div className='menu-link'>
             {isOpen && (
               <ul>
-                <li><Link to="" onClick={handleLinkClick}>HOME</Link></li>
-                <li><Link smooth to="/about" onClick={handleLinkClick}>SERVICE</Link></li>
-                <li><Link smooth to="/product" onClick={handleLinkClick}>PORTFOLIO</Link></li>
-                <li><Link smooth to="/training" onClick={handleLinkClick}>ABOUT</Link></li>
+                <li><Link smooth to="#home" onClick={handleLinkClick}>HOME</Link></li>
+                <li><Link smooth to="#service" onClick={handleLinkClick}>SERVICE</Link></li>
+                <li><Link smooth to="#work" onClick={handleLinkClick}>Work</Link></li>
+                <li><Link smooth to="#about" onClick={handleLinkClick}>ABOUT</Link></li>
                 {/* <Link className='Butt_contact' smooth to="#contact" onClick={handleLinkClick}><button className='nav_contact' >Contact us</button></Link> */}
               </ul>
               

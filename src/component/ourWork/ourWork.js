@@ -17,12 +17,12 @@ const OurWork = () => {
      if (selectedCategory === 'all') {
       return (
         <>
-          <div className='first imgContainer' id="social1"><img src='assets/img/ourWork/socialmedia/graphic-des.jpg' alt='socialmedia-img' /></div>
-          <div className='second imgContainer' id="social1"><img src='assets/img/ourWork/socialmedia/Dussehra.jpg' alt='socialmedia-img' /></div>
-          <div className='first imgContainer' id="social1"><img src='assets/img/ourWork/socialmedia/voutch-pro.png' alt='socialmedia-img' /></div>
+                  <div className='first imgContainer' id="social1"><img src='assets/img/ourWork/socialmedia/voutch-pro.png' alt='socialmedia-img' /></div>
           <div className='second imgContainer' id="social2"><img src='assets/img/ourWork/socialmedia/billbergia.png' alt='socialmedia-img' /></div>
           <div className='first imgContainer' id="social3"><img src='assets/img/ourWork/socialmedia/kismatguru.png' alt='socialmedia-img' /></div>
           <div className='first imgContainer' id="social1"><img src='assets/img/ourWork/ads/Billbergia-ad.jpg' alt='socialmedia-img' /></div>
+          <div className='first imgContainer' id="social1"><img src='assets/img/ourWork/socialmedia/graphic-des.jpg' alt='socialmedia-img' /></div>
+          <div className='second imgContainer' id="social1"><img src='assets/img/ourWork/socialmedia/Dussehra.jpg' alt='socialmedia-img' /></div>
           <div className='first imgContainer' id="social1"><img src='assets/img/ourWork/ads/masterclass-ad.jpg' alt='socialmedia-img' /></div>
           <div className='first imgContainer' id="social1"><img src='assets/img/ourWork/ads/system-des-ad.jpg' alt='socialmedia-img' /></div>
           <div className='first imgContainer' id="social1"><img src='assets/img/ourWork/product-moc/product.jpg' alt='socialmedia-img' /></div>
@@ -76,7 +76,7 @@ const OurWork = () => {
   };
 
   return (
-    <div className='OurWork'>
+    <div className='OurWork' id='work'>
       <div className='OurWorkHead'>
         <h4>EXPLORE OUR</h4>
         <h1>Showcase of Creative Excellence</h1>

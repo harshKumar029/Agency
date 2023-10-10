@@ -139,4 +139,10 @@
         font-weight: 400;
         margin-top: .5rem;
     }
+    .rights{
+        flex-direction: column;
+    }
+    .footer-content div div{
+        text-align: center;
+    }
 }

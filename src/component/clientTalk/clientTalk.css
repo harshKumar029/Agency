@@ -1,5 +1,5 @@
 .ClientTalk {
-    margin-top: 10rem;
+    margin-top: 7.2rem;
     width: 100%;
     background: linear-gradient(270deg, #FFC040 0.12%, #EB8D00 99.91%);
 }
@@ -26,7 +26,7 @@
 .ClientTalk .rect h1{
     color: #FFF;
     font-family: 'Poppins', sans-serif;
-    font-size: 2.7rem;
+    font-size: 2.5rem;
     font-style: normal;
     font-weight: 700;
     line-height: 99.971%; /* 61.982px */
@@ -55,7 +55,7 @@
     line-height: 147.2%; /* 41.216px */
     margin-left: 10%;
     margin-top: 5%;
-    padding-bottom: 5%;
+    /* padding-bottom: 5%; */
 }
 .ClientTalk h4 span {
     opacity: 0.9;
@@ -68,6 +68,7 @@
 .author-pagi{
     display: flex;
     justify-content: space-between;
+    padding-bottom: 10%;
 }
 /* Pagination container */
 .clints-pagination {
@@ -112,27 +113,28 @@
 @media only screen and (max-width: 425px) {
     .rect {
         width: 30%;
+        /* margin-left: 2.5rem; */
     }
     .ClientTalk p {
         /* 47.104px */
-        margin-left: 5%;
+        margin-left: 2.5rem;
         margin-top: 10%;
         max-width: 75%;
         margin-top: 20%;
     }
     
     .ClientTalk .rect h3 {
-        font-size: 1.5rem;
-        margin-left: 0px;
+        font-size: 1.2rem;
+        margin-left: 9px;
     }
     .ClientTalk .rect h1 {
-        font-size: 3.5rem;
-        margin-left: 0px;
+        font-size: 2.5rem;
+        margin-left: 9px;
         
     }
     .ClientTalk h4{
         margin-top: 20% ;
-        margin-left: 5%;
+        margin-left: 2.5rem;
     }
     .clints-pagination{
         margin-top: 25% ;

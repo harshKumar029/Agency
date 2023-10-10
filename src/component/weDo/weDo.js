@@ -4,7 +4,7 @@ import "./weDo.css";
 const weDo = () => {
   return (
     <>
-      <div className="weDoContainer">
+      <div className="weDoContainer" id="about">
         <div className="flex-box">
           <div className="img-dex"><img src="./assets/img/rocket1.svg" alt="rocket-img"/></div>
           <div>

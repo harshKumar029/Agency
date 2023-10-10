@@ -4,33 +4,27 @@ import "./clientTalk.css"
 const reviewsData = [
   {
     id: 1,
-    author: 'John Doe',
-    discription: 'social influencer',
-    text: 'qwihh whdwi Lorem ipsum dolor sit amecininundcw cwbihsectetur adipiscing elit. Nullam vel turpis nec nunc aliquet vestibulum.',
+    author: 'Rajat Garg,',
+    discription: 'Founder @Bosscoder Academy',
+    text: 'Zudio Media designs are superb. They combine creativity and precision, resulting in visually stunning and effective work.',
   },
   {
     id: 2,
-    author: 'Jane',
-    discription: 'social influencer',
-    text: 'shjhje hwhj sample review. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel turpis nec nunc aliquet vestibulum.',
+    author: 'Vidhu Goel',
+    discription: 'Founder @Vidaa Crunch',
+    text: 'Zudio Media excels in web design. Their creativity and attention to detail transformed our vision into a stunning, user-friendly website. Highly satisfied!',
   },
   {
     id: 3,
-    author: 'Rahul',
-    discription: 'social influencer',
-    text: 'noewn iuewqniu sample review. Lorem ipsum dolor sit amet, adipiscing elit. Nullam vel turpis nec nunc aliquet vestibulum.',
+    author: 'Yash Garg',
+    discription: 'Founder @collegesetu',
+    text: '"Zudio Media social media designs are exceptional. Their creativity and expertise shine, capturing our brand essence beautifully. Highly recommend!',
   },
   {
     id: 4,
-    author: 'nisha',
-    discription: 'social influencer',
-    text: 'lorem uonbicbiebw ijqeibcis a sample review. Lorem ipsum dolor sit amet,adipiscing elit. Nullam vel turpis nec nunc aliquet vestibulum.',
-  },
-  {
-    id: 5,
-    author: 'sonali',
-    discription: 'social influencer',
-    text: 'heloooooooooo is a sample review. Lorem ipsum dolor sit amet, cg elit. Nullam vel turpis nec nunc aliquet vestibulum.',
+    author: 'Deepak',
+    discription: 'Founder @Puppy World',
+    text: 'Zudio Media development team consistently delivers excellent solutions combining expertise and commitment for project success. Highly recommended!',
   },
 ];
 
