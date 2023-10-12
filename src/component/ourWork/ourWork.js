@@ -51,19 +51,6 @@ const OurWork = () => {
 
       if (i === currentPage) {
         button.classList.add('active');
-        // if (selectedCategory === 'socialMedia') {
-        //   window.location = "#social" + (i)
-        // } else if (selectedCategory === 'logo') {
-        //   window.location = "#logo" + (i)
-        // } else if (selectedCategory === 'identity') {
-        //   window.location = "#identity" + (i + 1)
-        // } else if (selectedCategory === 'productMockup') {
-        //   window.location = "#productMockup" + (i + 1)
-        // } else if (selectedCategory === 'uiUx') {
-        //   window.location = "#UiUx" + (i + 1)
-        // } else if (selectedCategory === 'all') {
-        //   window.location = "#all" + (i)
-        // }
       }
 
     }
@@ -79,9 +66,6 @@ const OurWork = () => {
       scrollActivity();
     }, 1000);
   }, []);
-
-
-
 
   const renderAds = () => {
 

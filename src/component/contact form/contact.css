@@ -106,10 +106,6 @@
 
   
   .form-group {
-    /* margin-bottom: 15px; */
-    /* display: flex;
-    flex-direction: row; */
-    /* border-bottom: 1px solid #ccc; */
     outline: none;
   }
   
@@ -117,8 +113,6 @@
   form textarea {
     width: 80%;
     padding: 10px;
-    /* color: white; */
-    /* border: 1px solid #ccc; */
     border: none;
     border-bottom: 1px solid rgba(255, 255, 255, 0.442);
     margin-top: 5px;

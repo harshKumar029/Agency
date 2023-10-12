@@ -10,31 +10,16 @@
 .img-dex {
     width: 50rem;
     height: 20rem;
-    /* position: relative; */
     margin-left: -12vw;
-    /* margin: 2.8rem; */
-    /* background: tomato; */
-    /* order: 1; */
     position: relative;
-
-
 }
 .img-dex img{
     width: 95%;
-    /* margin-left: -8vw; */
-    /* float: left; */
-    /* margin-top: -45px; */
     position: absolute;
     bottom: -480px;
 }
 .img-mob{
     display: none;
-}
-.weDo{
-    /* margin: 3%; */
-    /* width: 57%; */
-}
-.weDoPara{
 }
 .weDo h3 {
     color: #FFF;
@@ -77,9 +62,6 @@
     }
     .img-dex img{
         width: 94%;
-        /* margin-left: 1vw; */
-        /* float: left; */
-        /* margin-top: -45px; */
         position: absolute;
         bottom: -340px;
     }

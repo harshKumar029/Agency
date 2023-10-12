@@ -21,8 +21,6 @@ const weDo = () => {
               </p>
             </div>
           </div>
-          {/* <div className="flex-cont">
-          </div> */}
         </div>
       </div>
     </>

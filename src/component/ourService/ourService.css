@@ -2,10 +2,8 @@
 
 .ourService{
     background-color: #fff;
-    /* max-width: 80%; */
     margin: auto;
     text-align: center;
-    /* border-radius: 22px; */
 }
 
 .serviceContent h4 {
@@ -31,23 +29,6 @@
   overflow: hidden;
   
 }
-/*FADE IN FOR THE SLIDER */
-/* .slider-container::before, .slider-container::after{
-  display: inline;
-  position: sticky;
-  z-index: 1;
-  content: "";
-  background-color: red;
-  padding: 2vw 3vw;
-}
-.slider-container::before{
-  background: linear-gradient(to left, rgba(0,0,0,0),rgba(255,255,255,.7));
-  left: 0px;
-}
-.slider-container::after{
-  background: linear-gradient(to right, rgba(0,0,0,0),rgba(255,255,255,.7));
-  right: 0px;
-} */
 /* FIRST SLIDER */
 .slider1 {
   display: inline-block;
@@ -102,9 +83,6 @@
       letter-spacing: 2px;
       text-transform: uppercase;
     }
-    /* .serviceFirst div ,.serviceSecond div{
-        padding:1.5rem 3rem ;
-    } */
   }
   @media only screen and (max-width: 550px){
     .ourService{

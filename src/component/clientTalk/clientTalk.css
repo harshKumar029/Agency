@@ -55,7 +55,6 @@
     line-height: 147.2%; /* 41.216px */
     margin-left: 10%;
     margin-top: 5%;
-    /* padding-bottom: 5%; */
 }
 .ClientTalk h4 span {
     opacity: 0.9;
@@ -113,10 +112,8 @@
 @media only screen and (max-width: 425px) {
     .rect {
         width: 30%;
-        /* margin-left: 2.5rem; */
     }
     .ClientTalk p {
-        /* 47.104px */
         margin-left: 2.5rem;
         margin-top: 10%;
         max-width: 75%;
