@@ -1,8 +1,21 @@
-import React from "react";
+import React, { useState } from 'react';
+import Contact from '../contact form/contact.js';
 import { HashLink as Link } from 'react-router-hash-link';
 import './hero.css'
 
-const hero = () => {
+const Hero = () => {
+  const [isPopupOpen, setIsPopupOpen] = useState(false);
+
+  const openPopup = () => {
+    setIsPopupOpen(true);
+    document.body.classList.add('disable-scroll'); // Disable scrolling
+  };
+
+  const closePopup = () => {
+    setIsPopupOpen(false);
+    document.body.classList.remove('disable-scroll'); // Enable scrolling
+  };
+  
   return (
     <>
       <div className="heroSec" id="home">
@@ -18,8 +31,9 @@ const hero = () => {
           </h1>
           <h3>Your go-to design and development agency,<br /> where creativity meets technology to bring your<br /> digital dreams to life.
           </h3>
-          <div className="getStarted">
-            <Link smooth to="#work"><button href="#" className="seeOurProject-button1">Get Started</button></Link>
+          <div className="get-Started">
+            <button  onClick={openPopup} className="seeOurProject-button1">Get Started</button>
+            <Contact isOpen={isPopupOpen} onClose={closePopup} />
             <Link smooth to="#work"><button href="#" className="seeOurProject">See Our Projects</button></Link>
           </div>
         </div>
@@ -32,4 +46,4 @@ const hero = () => {
   );
 };
 
-export default hero;
+export default Hero;

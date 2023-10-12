@@ -1,9 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react';
 import { AiFillLinkedin,AiFillInstagram } from "react-icons/ai";
+import Contact from '../contact form/contact.js';
 import { IoLogoWhatsapp } from "react-icons/io";
 import './footer.css'
 
-const footer = () => {
+const Footer = () => {
+    const [isPopupOpen, setIsPopupOpen] = useState(false);
+
+    const openPopup = () => {
+      setIsPopupOpen(true);
+      document.body.classList.add('disable-scroll'); // Disable scrolling
+    };
+  
+    const closePopup = () => {
+      setIsPopupOpen(false);
+      document.body.classList.remove('disable-scroll'); // Enable scrolling
+    };
     return (
         <>
             <div className='footer'>
@@ -11,22 +23,23 @@ const footer = () => {
                 <div className='logo-mob'><img src='./assets/img/ZUDIO MEDIA.svg' alt='logo' /></div>
                     <div className='got-proj'>
                         <h3>GOT A PROJECT?</h3>
-                        <h5>Contact Us</h5>
+                        <h5 onClick={openPopup}>Contact Us</h5>
+                        <Contact isOpen={isPopupOpen} onClose={closePopup} />
                     </div>
                     <div>
                         <h2>OUR ADDRESS</h2>
                         <h4>New Ashok Nagar, Delhi <br /> 110018</h4>
                     </div>
                     <div>
-                        <h2>CONTACT US</h2>
+                        <h2 >CONTACT US</h2>
                         <h4>contact@zudiomedia.com</h4>
                     </div>
                     <div>
                         <h2>Follow us on</h2>
                         <div>
-                            <AiFillInstagram className='soc-icon' />
-                            <IoLogoWhatsapp className='soc-icon' />
-                            <AiFillLinkedin className='soc-icon' />
+                            <a href='https://www.instagram.com/zudio_media/'><AiFillInstagram className='soc-icon' /></a>
+                            <a href=''><IoLogoWhatsapp className='soc-icon' /></a>
+                            <a><AiFillLinkedin className='soc-icon' /></a>
                         </div>
                     </div>
                 </div>
@@ -47,4 +60,4 @@ const footer = () => {
     )
 }
 
-export default footer
+export default Footer

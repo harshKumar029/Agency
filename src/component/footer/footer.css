@@ -5,7 +5,7 @@
     background-color: #1D1E21;
     color: white;
     padding-bottom: 2rem;
-    z-index: 1;
+    z-index: 15;
     position: sticky;
 
     
@@ -50,6 +50,9 @@
     text-align: -webkit-center;
     width: 12rem;
 
+}
+.footer-content div div a{
+    color: #fff;
 }
 .footer-content div h2{
     font-weight: 500;

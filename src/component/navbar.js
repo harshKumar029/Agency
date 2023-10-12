@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
-// import { Link as RouterLink } from 'react-router-dom';
+import Contact from './contact form/contact.js';
 import { HashLink as Link } from 'react-router-hash-link';
 import './navbar.css';
-// import About from './About';
 
 const Navbar = () => {
+  const [isPopupOpen, setIsPopupOpen] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
@@ -25,16 +25,20 @@ const Navbar = () => {
     };
   }, []);
 
-  // const handleToggle = () => {
-  //   setIsOpen(!isOpen);
-  // };
-
   const handleLinkClick = () => {
-    if (isOpen) {
-      if (window.innerWidth < 550){
-        setIsOpen(false);
-      }
+    if (isOpen && window.innerWidth < 550) {
+      setIsOpen(false);
     }
+  };
+
+  const openPopup = () => {
+    setIsPopupOpen(true);
+    document.body.classList.add('disable-scroll'); // Disable scrolling
+  };
+
+  const closePopup = () => {
+    setIsPopupOpen(false);
+    document.body.classList.remove('disable-scroll'); // Enable scrolling
   };
 
   return (
@@ -42,26 +46,20 @@ const Navbar = () => {
       <div className='nv_container'>
         <nav>
           <div className='nav-logo'>
-            {/* <RouterLink className='link' to=""> */}
-              <img className='logo-img' src="./assets/img/ZUDIO MEDIA.svg" alt="icon" />
-              {/* <h2>Hey! there</h2> */}
-              {/* </RouterLink> */}
-            {/* <h5>Puppy World</h5> */}
+            <img className='logo-img' src="./assets/img/ZUDIO MEDIA.svg" alt="icon" />
           </div>
           <div className='menu-link'>
             {isOpen && (
               <ul>
                 <li><Link smooth to="#home" onClick={handleLinkClick}>HOME</Link></li>
                 <li><Link smooth to="#service" onClick={handleLinkClick}>SERVICE</Link></li>
-                <li><Link smooth to="#work" onClick={handleLinkClick}>Work</Link></li>
+                <li><Link smooth to ="#work" onClick={handleLinkClick}>WORK</Link></li>
                 <li><Link smooth to="#about" onClick={handleLinkClick}>ABOUT</Link></li>
-                {/* <Link className='Butt_contact' smooth to="#contact" onClick={handleLinkClick}><button className='nav_contact' >Contact us</button></Link> */}
               </ul>
-              
             )}
           </div>
-          <Link className='Butt_contact' smooth to="#contact" onClick={handleLinkClick}><button className='nav_contact' >LET’S<br/>TALK</button></Link>
-          
+          <Link className='Butt_contact' onClick={openPopup} ><button className='nav_contact' >LET’S<br/>TALK</button></Link>
+          <Contact isOpen={isPopupOpen} onClose={closePopup} />
         </nav>
       </div>
     </>

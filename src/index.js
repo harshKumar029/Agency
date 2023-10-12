@@ -9,6 +9,7 @@ import OurService from './component/ourService/ourService';
 import OurWork from './component/ourWork/ourWork';
 import ClientTalk from './component/clientTalk/clientTalk';
 import WeDo from './component/weDo/weDo';
+// import Contact from './component/contact form/contact'
 import Footer from './component/footer/footer';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -20,6 +21,7 @@ root.render(
 <OurWork />
 <ClientTalk/>
 <WeDo/>
+{/* <Contact/> */}
 <Footer/>
 </BrowserRouter>
 </>

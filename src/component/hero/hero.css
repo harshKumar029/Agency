@@ -82,13 +82,13 @@
     line-height: 27px;
   }
  
-.getStarted {
+.get-Started {
   margin-top: 10%;
   display: flex;
   gap: 1.5%;
 }
  
-.getStarted button {
+.get-Started button {
   justify-content: center;
   align-items: center;
   background:  #FD3559;
@@ -101,6 +101,7 @@
   font-weight: 600;
   border-radius: 2px;
   line-height: normal;
+  cursor: pointer;
 }
 .seeOurProject-button1{
   padding: 1rem 3.4rem;
@@ -159,7 +160,7 @@
   }
 
   /* button */
-  .getStarted button {
+  .get-Started button {
     font-size: .8rem;
 
   }
@@ -179,6 +180,9 @@
     position: relative;
     margin-left: 0px;
   }
+  .seeOurProject {
+    padding: .7rem 9rem;
+  }
 
   .heroSec{
     display: flex;
@@ -197,7 +201,7 @@
     padding: 0%;
     margin-top: 1rem;
   }
-  .getStarted {
+  .get-Started {
     flex-direction: column-reverse;
   }
   /* .hero-img{
@@ -221,7 +225,7 @@
     line-height: 20px;
   }
   
-  .getStarted button {
+  .get-Started button {
     font-size: 1.3rem;
     font-weight: 400;
   }
