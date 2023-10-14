@@ -1,6 +1,7 @@
 .weDoContainer {
     padding-top: 7.2rem;
     padding-bottom: 7.2rem;
+    position: relative;
     background-image: url(/public/assets/img/star.svg); /* Replace with your image URL */
         background-size: cover;
         background-repeat: no-repeat;

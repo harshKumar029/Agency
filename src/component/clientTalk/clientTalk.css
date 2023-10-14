@@ -18,7 +18,7 @@
     font-weight: 300;
     letter-spacing: .2vw;
     text-transform: uppercase;
-    padding-top: 30%;
+    padding-top: 5rem;
     margin-left: 32.3%;
     white-space:nowrap;
     
@@ -67,7 +67,8 @@
 .author-pagi{
     display: flex;
     justify-content: space-between;
-    padding-bottom: 10%;
+    padding-bottom: 5rem;
+
 }
 /* Pagination container */
 .clints-pagination {

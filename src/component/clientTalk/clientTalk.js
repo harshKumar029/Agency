@@ -4,22 +4,22 @@ import "./clientTalk.css"
 const reviewsData = [
   {
     id: 1,
-    author: 'Rajat Garg,',
-    discription: 'Founder @Bosscoder Academy',
+    author: 'Nikhil,',
+    discription: 'Social-Media Influencr',
     text: 'Zudio Media designs are superb. They combine creativity and precision, resulting in visually stunning and effective work.',
   },
   {
     id: 2,
-    author: 'Vidhu Goel',
-    discription: 'Founder @Vidaa Crunch',
+    author: 'Kaushik',
+    discription: 'Blogger',
     text: 'Zudio Media excels in web design. Their creativity and attention to detail transformed our vision into a stunning, user-friendly website. Highly satisfied!',
   },
   {
     id: 3,
-    author: 'Yash Garg',
-    discription: 'Founder @collegesetu',
+    author: 'Jonty',
+    discription: 'Youtuber',
     text: '"Zudio Media social media designs are exceptional. Their creativity and expertise shine, capturing our brand essence beautifully. Highly recommend!',
-  },
+  },  
   {
     id: 4,
     author: 'Deepak',
@@ -43,7 +43,7 @@ const ClientTalk = () => {
 
   useEffect(() => {
     // Automatically rotate reviews every 5 seconds (5000 milliseconds)
-    const rotationInterval = setInterval(rotateReview, 5000);
+    const rotationInterval = setInterval(rotateReview, 7000);
 
     return () => {
       // Clear the interval when the component unmounts

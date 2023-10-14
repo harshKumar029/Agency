@@ -91,12 +91,17 @@ margin-top: 7.2rem;
   
   /* For Firefox */
   .ourAds {
+  
+    cursor: default;
     scrollbar-width: none;
   }
-/* .imgContainer{
-    heiginheritht: ;
-} */
-
+  .imgContainer{
+      cursor: -webkit-grab;
+    }
+    .imgContainer:active, .imgContainer:focus{
+      cursor: -webkit-grabbing;
+    }
+    
 .imgContainer img {
     height: 100%;
     border-radius: 1rem;
@@ -128,6 +133,12 @@ margin-top: 7.2rem;
 @media only screen and (max-width: 549px) {
     .workCategory {
         flex-wrap: wrap;
+    }
+    .imgContainer img {
+        height: inherit;
+        width: 55vw;
+        border-radius: 1rem;
+        /* width: auto; */
     }
 
 }

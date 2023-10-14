@@ -31,20 +31,20 @@ const OurService = () => {
         </div>
         <div className='serviceList2 slider-container'>
           <div className='slider2'>
-            <div className='slide' style={{ backgroundColor: "#8C64FF" }}>Logo design</div>
-            <div className='slide'>social media marketing</div>
-            <div className='slide' style={{ backgroundColor: "#FF3F84" }}>print media</div>
-            <div className='slide'>product design</div>
-            <div className='slide' style={{ backgroundColor: "#FF9344" }}>seo</div>
-            <div className='slide'>app development</div>
+            <div className='slide' style={{ backgroundColor: "#8C64FF" }}>Logo Design</div>
+            <div className='slide'>Social Media Marketing</div>
+            <div className='slide' style={{ backgroundColor: "#FF3F84" }}>Print Media</div>
+            <div className='slide'>Product Design</div>
+            <div className='slide' style={{ backgroundColor: "#FF9344" }}>Seo</div>
+            <div className='slide'>App Development</div>
           </div>
           <div className='slider2'>
-          <div className='slide' style={{ backgroundColor: "#8C64FF" }}>Logo design</div>
-            <div className='slide'>social media marketing</div>
-            <div className='slide' style={{ backgroundColor: "#FF3F84" }}>print media</div>
-            <div className='slide'>product design</div>
-            <div className='slide' style={{ backgroundColor: "#FF9344" }}>seo</div>
-            <div className='slide'>app development</div>
+          <div className='slide' style={{ backgroundColor: "#8C64FF" }}>Logo Design</div>
+            <div className='slide'>Social Media Marketing</div>
+            <div className='slide' style={{ backgroundColor: "#FF3F84" }}>Print Media</div>
+            <div className='slide'>Product Design</div>
+            <div className='slide' style={{ backgroundColor: "#FF9344" }}>Seo</div>
+            <div className='slide'>App Development</div>
           </div>
 
         </div>

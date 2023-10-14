@@ -32,7 +32,7 @@ const Footer = () => {
                     </div>
                     <div className='email'>
                         <h2 >CONTACT US</h2>
-                        <a href='mailto:contact@zudiomedia.com' aria-label='email'><h4>contact@zudiomedia.com</h4></a>
+                        <a  href='mailto:contact@zudiomedia.com' aria-label='email'><h4>contact@zudiomedia.com</h4></a>
                     </div>
                     <div>
                         <h2>Follow us on</h2>

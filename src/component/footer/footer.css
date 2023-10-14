@@ -37,8 +37,13 @@
     padding: 1rem 0rem;
     text-align: -webkit-center;
     width: 12rem;
-
+    cursor: pointer;
+    transition: all .3s;
 }
+.got-proj h5:hover{
+    background: #ffffffe0;
+}
+
 .footer-content div div a{
     color: #fff;
 }
@@ -51,7 +56,6 @@
 .soc-icon{
     width: 1.9rem;
     font-size: 21px;
-    margin-top: 20px;
 }
 .hr{
     text-align: -webkit-center;
@@ -87,7 +91,19 @@
 }
 .email a{
   color: rgb(255, 255, 255);
+  text-decoration: none;
+
 }
+.email a h4{
+    border-bottom: 1px solid #fff;
+    transition: all .3s;
+}
+.email a h4:hover{
+    color: #FF005C;
+    border-bottom: 1px solid #FF005C;
+    
+}
+
 .logo-mob{
     display: none;
 }
@@ -135,5 +151,6 @@
     }
     .footer-content div div{
         text-align: center;
+        margin-top: 0.5rem;
     }
 }

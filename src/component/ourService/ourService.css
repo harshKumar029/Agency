@@ -32,12 +32,12 @@
 /* FIRST SLIDER */
 .slider1 {
   display: inline-block;
-  animation: 10s slide infinite linear;
+  animation: 30s slide infinite linear;
 }
 /* SECOND SLIDER  */
 .slider2 {
   display: inline-block;
-  animation: 10s slide2 infinite linear;
+  animation: 30s slide2 infinite linear;
 }
 .slide {
   display: inline-block;
