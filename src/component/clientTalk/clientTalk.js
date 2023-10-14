@@ -43,7 +43,7 @@ const ClientTalk = () => {
 
   useEffect(() => {
     // Automatically rotate reviews every 5 seconds (5000 milliseconds)
-    const rotationInterval = setInterval(rotateReview, 5000);
+    const rotationInterval = setInterval(rotateReview, 7000);
 
     return () => {
       // Clear the interval when the component unmounts

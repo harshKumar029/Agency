@@ -56,7 +56,6 @@
 .soc-icon{
     width: 1.9rem;
     font-size: 21px;
-    margin-top: 20px;
 }
 .hr{
     text-align: -webkit-center;
@@ -152,5 +151,6 @@
     }
     .footer-content div div{
         text-align: center;
+        margin-top: 0.5rem;
     }
 }
