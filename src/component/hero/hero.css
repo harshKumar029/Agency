@@ -70,10 +70,15 @@
   border-radius: 2px;
   line-height: normal;
   cursor: pointer;
+  transition: all .3s;
 }
 .seeOurProject-button1{
   padding: 1rem 3.4rem;
 }
+.get-Started button:hover{
+  background: #fb0f3a;
+}
+
 .seeOurProject {
   border-radius: 2px;
   border: 1px solid #FFF !important;

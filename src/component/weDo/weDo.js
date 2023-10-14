@@ -6,6 +6,7 @@ const WeDo = () => {
     console.log(navigator.userAgent);
           if (/iPhone[^;]+/gi.test(navigator.userAgent)) {
               // Get the element with the class .weDoContainer
+              alert(navigator.userAgent)
               var weDoContainer = document.querySelector('.img-star');
   
               // Check if the element exists

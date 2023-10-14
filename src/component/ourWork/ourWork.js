@@ -15,6 +15,33 @@ const OurWork = () => {
     }, 1000);
   };
   const scrollActivity = () => {
+    const scrollContent = document.getElementById("ourAds");
+    let isDragging = false;
+    let startX;
+    let scrollLeft;
+    scrollContent.addEventListener('mousedown', (e) => {
+      isDragging = true;
+      startX = e.pageX - scrollContent.offsetLeft;
+      scrollLeft = scrollContent.scrollLeft;
+    });
+
+    scrollContent.addEventListener('mousemove', (e) => {
+      if (!isDragging) return;
+      e.preventDefault();
+      const x = e.pageX - scrollContent.offsetLeft;
+      const walk = (x - startX) * 2; // Adjust the sensitivity
+      scrollContent.scrollLeft = scrollLeft - walk;
+    });
+    scrollContent.addEventListener('mouseup', () => {
+      isDragging = false;
+      scrollContent.style.cursor = 'grab';
+    });
+
+    scrollContent.addEventListener('mouseleave', () => {
+      isDragging = false;
+      scrollContent.style.cursor = 'grab';
+    });
+
     const scrollableDiv = document.getElementById("ourAds");
     const pagination = document.getElementById("pagination");
     const links = pagination.querySelectorAll(".pagi");

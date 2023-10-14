@@ -34,11 +34,14 @@ const Navbar = () => {
   const openPopup = () => {
     setIsPopupOpen(true);
     document.body.classList.add('disable-scroll'); // Disable scrolling
+    document.getElementsByClassName('footer')[0].style = "display:none"
   };
 
   const closePopup = () => {
     setIsPopupOpen(false);
     document.body.classList.remove('disable-scroll'); // Enable scrolling
+    document.getElementsByClassName('footer')[0].style = "display:block"
+    
   };
 
   return (
