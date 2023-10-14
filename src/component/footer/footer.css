@@ -87,6 +87,7 @@
 }
 .email a{
   color: rgb(255, 255, 255);
+  text-decoration: none;
 }
 .logo-mob{
     display: none;

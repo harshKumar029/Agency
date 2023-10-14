@@ -174,7 +174,7 @@ const OurWork = () => {
           UI UX
         </div>
       </div>
-      <div className='ourAds' id='ourAds' >{renderAds()}</div>
+      <div className='ourAds' id='ourAds'  >{renderAds()}</div>
       <div className='pagination' id='pagination'>
 
       </div>

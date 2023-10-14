@@ -73,11 +73,12 @@ margin-top: 7.2rem;
     width: calc(80% + 0rem);
     height: 29vw;
     margin: auto;
-    overflow-x: scroll; /* scroll the horizontal scrollbar */
-    overflow-y: hidden; /* Hide the vertical scrollbar */
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scroll-behavior: smooth; 
     white-space: nowrap;
     user-select: none;
-    cursor: pointer;
+    /* cursor: pointer; */
     transition: all 0.2s;
     position: relative;
     perspective: 500px;
