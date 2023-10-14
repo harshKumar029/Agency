@@ -72,35 +72,35 @@ const OurWork = () => {
     if (selectedCategory === 'all') {
       return (
         <>
-          <div className='items first imgContainer' id="all1"><img src='assets/img/ourWork/socialmedia/graphic-des.jpg' alt='Zudiomediawork-img' /></div>
-          <div className='items second imgContainer' id="all2"><img src='assets/img/ourWork/socialmedia/Dussehra.jpg' alt='Zudiomediawork-img' /></div>
-          <div className='items first imgContainer' id="all3"><img src='assets/img/ourWork/socialmedia/voutch-pro.png' alt='Zudiomediawork-img' /></div>
-          <div className='items second imgContainer' id="all4"><img src='assets/img/ourWork/socialmedia/billbergia.png' alt='Zudiomediawork-img' /></div>
-          <div className='items first imgContainer' id="all5"><img src='assets/img/ourWork/socialmedia/kismatguru.png' alt='Zudiomediawork-img' /></div>
-          <div className='items first imgContainer' id="all6"><img src='assets/img/ourWork/ads/Billbergia-ad.jpg' alt='Zudiomediawork-img' /></div>
-          <div className='items first imgContainer' id="all7"><img src='assets/img/ourWork/ads/masterclass-ad.jpg' alt='Zudiomediawork-img' /></div>
-          <div className='items first imgContainer' id="all8"><img src='assets/img/ourWork/ads/system-des-ad.jpg' alt='Zudiomediawork-img' /></div>
-          <div className='items first imgContainer' id="all9"><img src='assets/img/ourWork/product-moc/product.jpg' alt='Zudiomediawork-img' /></div>
-          <div className='items first imgContainer' id="all10"><img src='assets/img/ourWork/product-moc/product-ad.png' alt='Zudiomediawork-img' /></div>
-          <div className='items first imgContainer' id="all11"><img src='assets/img/ourWork/product-moc/god-tshirt-ad.png' alt='Zudiomediawork-img' /></div>
+          <div className='items first imgContainer'><img src='assets/img/ourWork/socialmedia/voutch-pro.webp' alt='Zudiomediawork-img' /></div>
+          <div className='items first imgContainer' ><img src='assets/img/ourWork/ads/masterclass-ad.webp' alt='Zudiomediawork-img' /></div>
+          <div className='items first imgContainer' ><img src='assets/img/ourWork/socialmedia/graphic-des.webp' alt='Zudiomediawork-img' /></div>
+          <div className='items second imgContainer'><img src='assets/img/ourWork/socialmedia/Dussehra.webp' alt='Zudiomediawork-img' /></div>
+          <div className='items second imgContainer'><img src='assets/img/ourWork/socialmedia/billbergia.webp' alt='Zudiomediawork-img' /></div>
+          <div className='items first imgContainer'><img src='assets/img/ourWork/socialmedia/kismatguru.webp' alt='Zudiomediawork-img' /></div>
+          <div className='items first imgContainer' ><img src='assets/img/ourWork/ads/Billbergia-ad.webp' alt='Zudiomediawork-img' /></div>
+          <div className='items first imgContainer' ><img src='assets/img/ourWork/ads/system-des-ad.webp' alt='Zudiomediawork-img' /></div>
+          <div className='items first imgContainer' ><img src='assets/img/ourWork/product-moc/product.webp' alt='Zudiomediawork-img' /></div>
+          <div className='items first imgContainer' ><img src='assets/img/ourWork/product-moc/product-ad.webp' alt='Zudiomediawork-img' /></div>
+          <div className='items first imgContainer' ><img src='assets/img/ourWork/product-moc/god-tshirt-ad.webp' alt='Zudiomediawork-img' /></div>
         </>
       );
     } else if (selectedCategory === 'socialMedia') {
       return (
         <>
-          <div className='items first imgContainer'  ><img src='assets/img/ourWork/socialmedia/graphic-des.jpg' alt='socialmedia-img' /></div>
-          <div className='items second imgContainer'  ><img src='assets/img/ourWork/socialmedia/Dussehra.jpg' alt='socialmedia-img' /></div>
-          <div className='items first imgContainer'><img src='assets/img/ourWork/socialmedia/voutch-pro.png' alt='socialmedia-img' /></div>
-          <div className='items second imgContainer' ><img src='assets/img/ourWork/socialmedia/billbergia.png' alt='socialmedia-img' /></div>
-          <div className='items first imgContainer' ><img src='assets/img/ourWork/socialmedia/kismatguru.png' alt='socialmedia-img' /></div>
+          <div className='items first imgContainer'  ><img src='assets/img/ourWork/socialmedia/graphic-des.webp' alt='socialmedia-img' /></div>
+          <div className='items second imgContainer'  ><img src='assets/img/ourWork/socialmedia/Dussehra.webp' alt='socialmedia-img' /></div>
+          <div className='items first imgContainer'><img src='assets/img/ourWork/socialmedia/voutch-pro.webp' alt='socialmedia-img' /></div>
+          <div className='items second imgContainer' ><img src='assets/img/ourWork/socialmedia/billbergia.webp' alt='socialmedia-img' /></div>
+          <div className='items first imgContainer' ><img src='assets/img/ourWork/socialmedia/kismatguru.webp' alt='socialmedia-img' /></div>
         </>
       );
     } else if (selectedCategory === 'ads') {
       return (
         <>
-          <div className='items first imgContainer'><img src='assets/img/ourWork/ads/Billbergia-ad.jpg' alt='ads-img' /></div>
-          <div className='items first imgContainer'><img src='assets/img/ourWork/ads/masterclass-ad.jpg' alt='ads-img' /></div>
-          <div className='items first imgContainer'><img src='assets/img/ourWork/ads/system-des-ad.jpg' alt='ads-img' /></div>
+          <div className='items first imgContainer'><img src='assets/img/ourWork/ads/Billbergia-ad.webp' alt='ads-img' /></div>
+          <div className='items first imgContainer'><img src='assets/img/ourWork/ads/masterclass-ad.webp' alt='ads-img' /></div>
+          <div className='items first imgContainer'><img src='assets/img/ourWork/ads/system-des-ad.webp' alt='ads-img' /></div>
         </>
       );
     } else if (selectedCategory === 'logo') {
@@ -113,16 +113,16 @@ const OurWork = () => {
     } else if (selectedCategory === 'productMockup') {
       return (
         <>
-          <div className='items first imgContainer'><img src='assets/img/ourWork/product-moc/product.jpg' alt='productMockup-img' /></div>
-          <div className='items first imgContainer'><img src='assets/img/ourWork/product-moc/product-ad.png' alt='productMockup-img' /></div>
-          <div className='items first imgContainer'><img src='assets/img/ourWork/product-moc/god-tshirt-ad.png' alt='productMockup-img' /></div>
+          <div className='items first imgContainer'><img src='assets/img/ourWork/product-moc/product.webp' alt='productMockup-img' /></div>
+          <div className='items first imgContainer'><img src='assets/img/ourWork/product-moc/product-ad.webp' alt='productMockup-img' /></div>
+          <div className='items first imgContainer'><img src='assets/img/ourWork/product-moc/god-tshirt-ad.webp' alt='productMockup-img' /></div>
         </>
       );
     } else if (selectedCategory === 'uiUx') {
       return (
         <>
-          <div className='items first imgContainer' ><img src='assets/img/ourWork/uiux/College-Dunia-1.jpg' alt='ui&ux-img' /></div>
-          <div className='items first imgContainer' ><img src='assets/img/ourWork/uiux/splash.jpg' alt='ui&ux-img' /></div>
+          <div className='items first imgContainer' ><img src='assets/img/ourWork/uiux/College-Dunia-1.webp' alt='ui&ux-img' /></div>
+          <div className='items first imgContainer' ><img src='assets/img/ourWork/uiux/splash.webp' alt='ui&ux-img' /></div>
         </>
       );
     }
@@ -157,7 +157,7 @@ const OurWork = () => {
         </div>
         <div
           className={selectedCategory === 'logo' ? 'active' : ''}
-          // onClick={() => handleCategoryChange('logo')}   //under process to activate uncomment.
+        // onClick={() => handleCategoryChange('logo')}   //under process to activate uncomment.
         >
           LOGO
         </div>

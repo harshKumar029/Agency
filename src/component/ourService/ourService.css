@@ -84,10 +84,10 @@
       text-transform: uppercase;
     }
   }
-  @media only screen and (max-width: 550px){
+  /* @media only screen and (max-width: 550px){
     .ourService{
       margin-top: -79px;
     }
-  }
+  } */
 
 

@@ -93,15 +93,14 @@ margin-top: 7.2rem;
   .ourAds {
     scrollbar-width: none;
   }
-
-
-.imgContainer{
-    height: inherit;
-}
+/* .imgContainer{
+    heiginheritht: ;
+} */
 
 .imgContainer img {
     height: 100%;
     border-radius: 1rem;
+    width: auto;
 }
 .pagination {
     padding-top: 1rem;

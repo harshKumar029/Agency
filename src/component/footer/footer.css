@@ -85,6 +85,9 @@
     /* padding-bottom: 8px; */
 
 }
+.email a{
+  color: rgb(255, 255, 255);
+}
 .logo-mob{
     display: none;
 }

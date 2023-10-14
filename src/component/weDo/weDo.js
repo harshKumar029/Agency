@@ -1,11 +1,26 @@
-import React from "react";
+import React, { useEffect } from 'react';
 import "./weDo.css";
 
-const weDo = () => {
+const WeDo = () => {
+  useEffect(() => {
+    console.log(navigator.userAgent);
+          if (/iPhone[^;]+/gi.test(navigator.userAgent)) {
+              // Get the element with the class .weDoContainer
+              var weDoContainer = document.querySelector('.img-star');
+  
+              // Check if the element exists
+              if (weDoContainer) {
+                  // Apply specific styles to the .weDoContainer element
+                  weDoContainer.style.display = 'block';
+                  // Do not set background-attachment here as it may not work as expected on iOS
+              }
+          }
+  })
   return (
     <>
       <div className="weDoContainer" id="about">
         <div className="flex-box">
+          <div className="img-star"></div>
           <div className="img-dex"><img src="./assets/img/rocket1.svg" alt="rocket-img"/></div>
           <div>
             <div className="weDo">
@@ -27,4 +42,4 @@ const weDo = () => {
   );
 };
 
-export default weDo;
+export default WeDo;

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { AiFillLinkedin,AiFillInstagram } from "react-icons/ai";
+import { AiFillLinkedin, AiFillInstagram } from "react-icons/ai";
 import Contact from '../contact form/contact.js';
 import { IoLogoWhatsapp } from "react-icons/io";
 import './footer.css'
@@ -8,19 +8,19 @@ const Footer = () => {
     const [isPopupOpen, setIsPopupOpen] = useState(false);
 
     const openPopup = () => {
-      setIsPopupOpen(true);
-      document.body.classList.add('disable-scroll'); // Disable scrolling
+        setIsPopupOpen(true);
+        document.body.classList.add('disable-scroll'); // Disable scrolling
     };
-  
+
     const closePopup = () => {
-      setIsPopupOpen(false);
-      document.body.classList.remove('disable-scroll'); // Enable scrolling
+        setIsPopupOpen(false);
+        document.body.classList.remove('disable-scroll'); // Enable scrolling
     };
     return (
         <>
             <div className='footer'>
                 <div className='footer-content'>
-                <div className='logo-mob'><img src='./assets/img/ZUDIO MEDIA.svg' alt='logo' /></div>
+                    <div className='logo-mob'><img src='./assets/img/ZUDIO MEDIA.svg' alt='logo' /></div>
                     <div className='got-proj'>
                         <h3>GOT A PROJECT?</h3>
                         <h5 onClick={openPopup}>Contact Us</h5>
@@ -30,16 +30,16 @@ const Footer = () => {
                         <h2>OUR ADDRESS</h2>
                         <h4>New Ashok Nagar, Delhi <br /> 110018</h4>
                     </div>
-                    <div>
+                    <div className='email'>
                         <h2 >CONTACT US</h2>
-                        <h4>contact@zudiomedia.com</h4>
+                        <a href='mailto:contact@zudiomedia.com' aria-label='email'><h4>contact@zudiomedia.com</h4></a>
                     </div>
                     <div>
                         <h2>Follow us on</h2>
                         <div>
-                            <a href='https://www.instagram.com/zudio_media/'><AiFillInstagram className='soc-icon' /></a>
-                            <a href=''><IoLogoWhatsapp className='soc-icon' /></a>
-                            <a><AiFillLinkedin className='soc-icon' /></a>
+                            <a href='https://www.instagram.com/zudio_media/' aria-label='Instagram'><AiFillInstagram className='soc-icon' /></a>
+                            <a href='#' aria-label='Whatsapp' ><IoLogoWhatsapp className='soc-icon' /></a>
+                            <a href='#' aria-label='Linkedin'><AiFillLinkedin className='soc-icon' /></a>
                         </div>
                     </div>
                 </div>

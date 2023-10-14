@@ -37,10 +37,7 @@ const Hero = () => {
             <Link smooth to="#work"><button href="#" className="seeOurProject">See Our Projects</button></Link>
           </div>
         </div>
-        <div className="hero-img">
-          <div class="circle-gradient"></div>
-          <img src="./assets/img/hero-img.png" alt="hero-img" />
-        </div>
+          <img className="hero-img"src="./assets/img/hero-img.webp" alt="hero-img" />
       </div>
     </>
   );
