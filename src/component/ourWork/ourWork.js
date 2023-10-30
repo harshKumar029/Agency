@@ -103,13 +103,15 @@ const OurWork = () => {
           <div className='items first imgContainer' ><img src='assets/img/ourWork/ads/masterclass-ad.webp' alt='Zudiomediawork-img' /></div>
           <div className='items first imgContainer' ><img src='assets/img/ourWork/socialmedia/graphic-des.webp' alt='Zudiomediawork-img' /></div>
           <div className='items second imgContainer'><img src='assets/img/ourWork/socialmedia/Dussehra.webp' alt='Zudiomediawork-img' /></div>
-          <div className='items second imgContainer'><img src='assets/img/ourWork/socialmedia/billbergia.webp' alt='Zudiomediawork-img' /></div>
-          <div className='items first imgContainer'><img src='assets/img/ourWork/socialmedia/kismatguru.webp' alt='Zudiomediawork-img' /></div>
-          <div className='items first imgContainer' ><img src='assets/img/ourWork/ads/Billbergia-ad.webp' alt='Zudiomediawork-img' /></div>
+          <div className='items second imgContainer'><img src='assets/img/ourWork/socialmedia/resume-guide.webp' alt='Zudiomediawork-img' /></div>
+          {/* <div className='items first imgContainer'><img src='assets/img/ourWork/socialmedia/kismatguru.webp' alt='Zudiomediawork-img' /></div> */}
+          {/* <div className='items first imgContainer' ><img src='assets/img/ourWork/ads/Billbergia-ad.webp' alt='Zudiomediawork-img' /></div> */}
           <div className='items first imgContainer' ><img src='assets/img/ourWork/ads/system-des-ad.webp' alt='Zudiomediawork-img' /></div>
-          <div className='items first imgContainer' ><img src='assets/img/ourWork/product-moc/product.webp' alt='Zudiomediawork-img' /></div>
+          {/* <div className='items first imgContainer' ><img src='assets/img/ourWork/product-moc/product.webp' alt='Zudiomediawork-img' /></div> */}
           <div className='items first imgContainer' ><img src='assets/img/ourWork/product-moc/product-ad.webp' alt='Zudiomediawork-img' /></div>
           <div className='items first imgContainer' ><img src='assets/img/ourWork/product-moc/god-tshirt-ad.webp' alt='Zudiomediawork-img' /></div>
+          <div className='items first imgContainer' ><img src='assets/img/ourWork/uiux/College-Dunia-1.webp' alt='ui&ux-img' /></div>
+          <div className='items first imgContainer' ><img src='assets/img/ourWork/uiux/splash.webp' alt='ui&ux-img' /></div>
         </>
       );
     } else if (selectedCategory === 'socialMedia') {
@@ -118,14 +120,14 @@ const OurWork = () => {
           <div className='items first imgContainer'  ><img src='assets/img/ourWork/socialmedia/graphic-des.webp' alt='socialmedia-img' /></div>
           <div className='items second imgContainer'  ><img src='assets/img/ourWork/socialmedia/Dussehra.webp' alt='socialmedia-img' /></div>
           <div className='items first imgContainer'><img src='assets/img/ourWork/socialmedia/voutch-pro.webp' alt='socialmedia-img' /></div>
-          <div className='items second imgContainer' ><img src='assets/img/ourWork/socialmedia/billbergia.webp' alt='socialmedia-img' /></div>
-          <div className='items first imgContainer' ><img src='assets/img/ourWork/socialmedia/kismatguru.webp' alt='socialmedia-img' /></div>
+          <div className='items second imgContainer' ><img src='assets/img/ourWork/socialmedia/resume-guide.webp' alt='socialmedia-img' /></div>
+          {/* <div className='items first imgContainer' ><img src='assets/img/ourWork/socialmedia/kismatguru.webp' alt='socialmedia-img' /></div> */}
         </>
       );
     } else if (selectedCategory === 'ads') {
       return (
         <>
-          <div className='items first imgContainer'><img src='assets/img/ourWork/ads/Billbergia-ad.webp' alt='ads-img' /></div>
+          {/* <div className='items first imgContainer'><img src='assets/img/ourWork/ads/Billbergia-ad.webp' alt='ads-img' /></div> */}
           <div className='items first imgContainer'><img src='assets/img/ourWork/ads/masterclass-ad.webp' alt='ads-img' /></div>
           <div className='items first imgContainer'><img src='assets/img/ourWork/ads/system-des-ad.webp' alt='ads-img' /></div>
         </>
@@ -140,7 +142,7 @@ const OurWork = () => {
     } else if (selectedCategory === 'productMockup') {
       return (
         <>
-          <div className='items first imgContainer'><img src='assets/img/ourWork/product-moc/product.webp' alt='productMockup-img' /></div>
+          {/* <div className='items first imgContainer'><img src='assets/img/ourWork/product-moc/product.webp' alt='productMockup-img' /></div> */}
           <div className='items first imgContainer'><img src='assets/img/ourWork/product-moc/product-ad.webp' alt='productMockup-img' /></div>
           <div className='items first imgContainer'><img src='assets/img/ourWork/product-moc/god-tshirt-ad.webp' alt='productMockup-img' /></div>
         </>

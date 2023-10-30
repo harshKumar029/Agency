@@ -5,7 +5,7 @@ const reviewsData = [
   {
     id: 1,
     author: 'Nikhil,',
-    discription: 'Social-Media Influencr',
+    discription: 'Social-Media Influencer',
     text: 'Zudio Media designs are superb. They combine creativity and precision, resulting in visually stunning and effective work.',
   },
   {
@@ -23,7 +23,7 @@ const reviewsData = [
   {
     id: 4,
     author: 'Deepak',
-    discription: 'Founder @Puppy World',
+    discription: 'Founder @PuppytheWorld',
     text: 'Zudio Media development team consistently delivers excellent solutions combining expertise and commitment for project success. Highly recommended!',
   },
 ];
@@ -49,7 +49,9 @@ const ClientTalk = () => {
       // Clear the interval when the component unmounts
       clearInterval(rotationInterval);
     };
-  }, [currentReviewIndex]);
+  }, 
+  // [currentReviewIndex]
+  );
 
   // Generate pagination dots based on review count
   const paginationDots = reviewsData.map((_, index) => (

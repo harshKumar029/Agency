@@ -28,7 +28,7 @@ const Footer = () => {
                     </div>
                     <div>
                         <h2>OUR ADDRESS</h2>
-                        <h4>New Ashok Nagar, Delhi <br /> 110018</h4>
+                        <h4>New Ashok Nagar, Delhi <br /> 110096</h4>
                     </div>
                     <div className='email'>
                         <h2 >CONTACT US</h2>
@@ -36,7 +36,7 @@ const Footer = () => {
                     </div>
                     <div>
                         <h2>Follow us on</h2>
-                        <div>
+                        <div className='social-icon'>
                             <a href='https://www.instagram.com/zudio_media/' aria-label='Instagram'><AiFillInstagram className='soc-icon' /></a>
                             <a href='#' aria-label='Whatsapp' ><IoLogoWhatsapp className='soc-icon' /></a>
                             <a href='#' aria-label='Linkedin'><AiFillLinkedin className='soc-icon' /></a>
