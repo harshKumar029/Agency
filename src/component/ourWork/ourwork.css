@@ -50,6 +50,7 @@ margin-top: 7.2rem;
     text-transform: uppercase;
     justify-content: center;
     text-align: center;
+    cursor: pointer;
 }
   
 .workCategory div::after {
